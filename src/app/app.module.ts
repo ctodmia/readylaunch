@@ -14,7 +14,7 @@ import { HomeComponent } from './home/home.component';
 
 
 const appRoutes: Routes = [
-  { path: '', component: ShopComponent },
+  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'shop', component: ShopComponent },
   { path: 'listen', component: ListenComponent },
