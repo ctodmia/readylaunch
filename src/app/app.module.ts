@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NgMaterialModule } from './ng-material/ng-material.module'
 import { ThirtyByThirtyModule } from './thirty-by-thirty/thirty-by-thirty.module';
+import { MomentModule } from 'angular2-moment';
 
 import { AppComponent } from './app.component';
 import { ShopComponent } from './shop/shop.component';
@@ -28,7 +29,8 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     NgMaterialModule,
-    ThirtyByThirtyModule
+    ThirtyByThirtyModule,
+    MomentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
