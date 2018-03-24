@@ -1,4 +1,5 @@
 export class Season {
+    id: number;
     number: number;
     startDate: string; 
     endDate: string;
@@ -7,5 +8,5 @@ export class Season {
     author: string;
     goals: Array <Object>;
     reward: string;
-    daysComplete: number;
+    daysCompleted: number;
 }
