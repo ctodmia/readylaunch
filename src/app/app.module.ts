@@ -7,13 +7,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NgMaterialModule } from './ng-material/ng-material.module'
 import { ThirtyByThirtyModule } from './thirty-by-thirty/thirty-by-thirty.module';
+import * as moment from 'moment';
 
 import { AppComponent } from './app.component';
 import { ShopComponent } from './shop/shop.component';
 import { ListenComponent } from './listen/listen.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
-
 
 
 @NgModule({
@@ -23,6 +23,7 @@ import { HomeComponent } from './home/home.component';
     ListenComponent,
     AboutComponent,
     HomeComponent,
+  
   ],
   imports: [
     BrowserModule,
