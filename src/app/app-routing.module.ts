@@ -7,7 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', loadChildren: 'app/thirty-by-thirty/thirty-by-thirty.module#ThirtyByThirtyModule' },
   { path: 'home', component: HomeComponent },
   { path: 'shop', component: ShopComponent },
   { path: 'listen', component: ListenComponent },
